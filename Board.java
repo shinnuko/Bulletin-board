@@ -40,9 +40,9 @@ public class Board {
 
 
       }
-      Account account new Account("しんぬこ","男性","Gt_Vo",31);
+      Account account = new Account("しんぬこ","男性","Gt_Vo",31);
       System.out.println("【アカウント情報】");
-      Account printData();
+      account.printData();
 
   }
 
