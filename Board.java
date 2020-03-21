@@ -44,6 +44,19 @@ public class Board {
       System.out.println("【アカウント情報】");
       account.printData();
 
+      System.out.println("メンバー加入希望ですか？募集希望ですか？。＞：");
+      System.out.println("------------------");
+      String recruitment_format = scanner.nextLine();
+      
+      System.out.println("希望の地域はどこですか？。＞：");
+      System.out.println("------------------");
+      String recruitment_place = scanner.nextLine();
+      
+      System.out.println("最後に何か一言！！。＞：");
+      System.out.println("------------------");
+      String comment = scanner.nextLine();
+      
+      System.out.println("お疲れ様でした！当掲示板の主催イベントは2/12です。メンバーを見つけて是非ご参加ください。＞：");  
   }
 
 
